@@ -1,3 +1,121 @@
-#container{
-	width: 960px;
+body{
+	color: #ed84ba;
+	font-family: Arial;
+	background: url("../img/background.png");
+}
+
+div#container{
+	width: 940px;
+	margin: auto;
+}
+
+header a h1{
+	height: 135px;
+	width: 130px;
+	display: block;
+	text-indent: -9999px;
+	background-image: url("../img/logo_GK.png");
+	margin-left: 40px;
+}
+
+h2{
+	border-bottom: solid 2px #000;
+	margin-top: 30px;
+	font-size: 1.2em;
+}
+/* configurando figures em geral*/
+figure{
+	background-color: #F2EDED;
+
+	border: solid 1px #efd5b3;
+	text-align: center;
+
+	padding: 15px;
+	margin: 30px;
+}
+
+figure p{
+	margin-top: 10px;
+}
+
+p{
+	margin-top: 15px;
+	padding: 0 45px 0 45px;
+	line-height: 1.5em;
+}
+
+/* configuranda ambas as especificamente */
+figure#centro-distribuicao{
+	margin: 0 auto;
+	width: 550px;
+}
+
+figure#familia-teles{
+	float: right;
+	margin: 0 10px 10px;
+}
+
+/* section diferenciais*/
+section li{
+	margin-top: 15px;
+	margin-left: 60px;
+}
+
+a{
+	text-decoration: none;
+	color: #38d17f;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+footer{
+	color: #ccc;
+	margin: 30px 0 10px 0;
+	background-image: url("../img/fundo-rodape.png");
+	clear: both;
+}
+
+div .caixa-footer img{
+	vertical-align: middle;
+	margin-left: 30px;
+}
+
+.social a{
+	height: 32px;
+	width: 32px;
+	text-indent: -9999px;
+	display: inline-block;
+}
+.social a[href*="facebook.com"]{
+	background-image: url(../img/sociais.png) ;
+	background-position: -0px 32px; 
+}
+
+.social a[href*="twitter.com"]{
+	background-image: url(../img/sociais.png) ;
+	background-position: -47px 32px; 
+}
+
+.social a[href*="google.com"]{
+	background-image: url(../img/sociais.png) ;
+	background-position: -90px 32px; 
+}
+
+
+
+.caixa-footer{
+	position: relative;
+	padding-right: 20px;
+}
+
+.social{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.social li{
+	display: inline;
+	list-style-type: none;
 }

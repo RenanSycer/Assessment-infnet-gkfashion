@@ -121,6 +121,8 @@ div .caixa-footer img{
 }
 
 /*-----------Formatação da Index------------*/
+ 
+ /*headaer*/
 
 header{
 	position: relative;
@@ -140,7 +142,7 @@ header a{
 	right: 0px;
 
 }
-
+/* main*/
 .menu-principal{
 	position: absolute;
 	right: 0px;
@@ -223,6 +225,68 @@ form img{
 .menu-departamentos ul ul li{
 	background-color: #dcdcdc;
 }
-.menu-departamentos li{
+.menu-departamentos li li a:before{
+	content: "- ";
+}
 
+/* formatando os dois paineis principais */
+
+.painel{
+	margin: 10px 0 10px 0px;
+	padding: 10px;
+	width: 445px;
+	box-shadow: -1px 0px 16px 0px rgba(0,0,0,0.83);
+}
+
+.painel h2{
+	text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4); 
+}
+
+.painel h2:before{
+	opacity: 0.4;
+	content: '\2756';
+	padding-right: 5px;
+}
+
+.novidades{
+	float: left;
+	background-color: #f5dcdc;
+	background: linear-gradient(#f5dcdc, #bebef4);
+	box-shadow: 0px 0px 10px #999 inset;		
+}
+
+.mais-vendidos{
+	float: right;
+	background-color: #dcdcf5;
+	background: linear-gradient(#dcdcf5,#f4bebe);
+	box-shadow: 0px 0px 10px #999 inset;		
+}	
+
+section.painel ol li{
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	margin: 2px;
+	padding-bottom: 10px;
+	transition: width 0.7s ease-out
+}
+section.painel li:hover{
+	background-color: rgba(255,255,255,0.8);
+	transform: scaleY(1.5) rotate(-5deg);
+}
+
+/* usado para resetar as configurações definidas das figures */
+section.painel figure{
+	background-color: none;
+    border: none; 
+    text-align: center;
+    padding: 0px;
+    margin: 0px; 
+}
+
+section.painel h2{
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
 }

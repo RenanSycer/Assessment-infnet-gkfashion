@@ -9,6 +9,75 @@
 	<title>GK Fashion - Contato</title>
 </head>
 <body>
+	<div id="container">
+		<header>
+				<a href="index.html"><h1>GK Fashion</h1></a>
+				<p class="sacola"> Nenhum item na sacola de compras</p>
+				<nav class="menu-principal">
+					<ul>
+						<li>
+							<a href="">Sua conta</a>
+						</li>
+						<li>
+							<a href="">Lista de Desejos</a>
+						</li>
+						<li>
+							<a href="">Cartão Fidelidade</a>
+						</li>
+						<li>
+							<a href="sobre.html">Sobre</a>
+						</li>
+						<li>
+							<a href="">Contato</a>
+						</li>
+					</ul>
+				</nav>
+		</header>
 
+		<main role="main">
+			<section id="contato">
+				<h2>Entre em contato</h2>
+				<form>
+
+					<p><label for="cNome">Nome completo</label></p> 
+					<input type="text" name="tNome" id="cNome" size="20" maxlength="25" required=""/>
+
+					<p><label for="cEmail">Email</label></p>
+					<input type="email" name="eEmail" id="cEmail" size="20" maxlength="25" required=""/>
+					<p>
+						<select name="cars">
+				    		<option value="sugestao">Sugestão</option>
+				    		<option value="critica">Crítica</option>
+				    		<option value="elogio">Elogio</option>
+				    		<option value="outros">Outros</option>
+				  		</select>
+				  	</p>
+				  	<p><label for="cComentario">Deixe o seu comentário!</label></p>
+				  	<textarea name="tCommentario" id="cComentario" required="" rows="10" cols="50"></textarea>
+				  	<br>
+				  	<br>
+				  	<button type="submit" id="buttonComent">Enviar</button>
+				</form>
+			</section>
+		</main>
+		<footer>
+			<div class="caixa-footer">
+				<img src="img/logo_rodape.png">
+				Copyright GK Fashion
+				<ul class="social">
+					<li>
+						<a href="http://www.facebook.com/gkfashion" target="_blank">facebook</a>
+					</li>
+					<li>
+						<a href="http://www.twitter.com/gkfashion" target="_blank">twitter</a>
+					</li>
+					<li>
+						<a href="http://www.plus.google.com/gkfashion" target="_blank">google</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
 </body>
 </html>

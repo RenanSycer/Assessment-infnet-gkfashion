@@ -290,3 +290,13 @@ section.painel h2{
 	text-transform: uppercase;
 	margin-bottom: 10px;
 }
+
+/* Contato */
+form p{
+	padding: 0;
+}
+input{
+	height: 25px;
+	border-radius: 3px;
+	width: 300px;
+}

@@ -292,6 +292,16 @@ section.painel h2{
 }
 
 /* Contato */
+form{
+	margin-top: 20px;
+	background-image: none;
+	background-color: #f2c6f2;
+	border: 1.5px solid #ed84ba ;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	color : #000;
+}
 form p{
 	padding: 0;
 }

@@ -292,7 +292,7 @@ section.painel h2{
 }
 
 /* Contato */
-form{
+section#contato form{
 	margin-top: 20px;
 	background-image: none;
 	background-color: #f2c6f2;
@@ -309,4 +309,19 @@ input{
 	height: 25px;
 	border-radius: 3px;
 	width: 300px;
+}
+
+/* cartão-fidelidade */
+
+.tabela-cartao{
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  background: rgba(122,125,0,0.6);
+  width: 800px;
+  display: grid;
+  grid-template-columns: 180px 550px;
+  margin: 15px auto;
+  text-align: justify;
+  vertical-align: middle;
 }
